@@ -14,7 +14,7 @@
     @foreach($posts as $post)
         <div class="card mb-3">
             <div class="card-body">
-                <h2 class="card-title fs-5">{{ $post->title }}</h2>
+                <h2 class="card-title fs-5 border-bottom">{{ $post->title }}</h2>
                 <p class="card-text">{{ $post->content }}</p>    
                 
                 <div class="d-flex">
